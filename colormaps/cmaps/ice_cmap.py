@@ -1,4 +1,4 @@
-# For use this cmap you have to import the script and preprocess the list with list2list and Ccmap from cmap_tools.py
+# For using this cmap you have to import the script and preprocess the list with list2list and Ccmap from cmap_tools.py
 # Considers changes between ice shelves and accumulation zones
 ant_ice_sheet = [225, 224, 233,
                  224, 223, 232,
