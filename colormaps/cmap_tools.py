@@ -4,11 +4,6 @@
   Aim: Some functions for dealing with custom colormaps
 '''
 
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-
 def mk_cmap(nportions, values, ncolors, mode='linear'):
     '''
     Generates a color map splitting the colorbar into 'nportions' with colors='values' with a lenght of ncolors
