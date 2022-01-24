@@ -1,4 +1,4 @@
-# For use these cmaps you have to import the script and preprocess the list with list2list and Ccmap from cmap_tools.py
+# For using these cmaps you have to import the script and preprocess the list with list2list and Ccmap from cmap_tools.py
 # cmap names: ocean_bright and ocean_dark
 # Brighter and smoother
 ocean_bright = [0, 0, 56,
