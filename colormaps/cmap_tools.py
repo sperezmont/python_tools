@@ -5,7 +5,7 @@
 '''
 
 
-def Mat2Py(pylist, slice_len):
+def list2list(pylist, slice_len):
   '''
   Transform pylist with 1 dimension to pylist_converted with dimensions (len(pylist), slice_len)
   '''
