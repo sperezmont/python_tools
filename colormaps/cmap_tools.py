@@ -6,12 +6,12 @@
 
 def mk_cmap(nportions, values, ncolors, mode='linear', deg=2):
     '''
-    Generates a color map splitting the colorbar into 'nportions' with colors='values' with a lenght of ncolors
-    >>> nportions = len(values) - 1
-    >>> ncolors > nportions
-    >>> values = [[red, green, blue],...] in percentage units
-    >>> mode, gradation mode, default is 'linear', 'power'
-    >>> default power mode is 2 --> ax**2 + bx + c
+    Generates a color map splitting the colorbar into 'nportions' with colors='values' with a lenght of ncolors \n
+    >>> nportions = len(values) - 1 \n
+    >>> ncolors > nportions \n
+    >>> values = [[red, green, blue],...] in percentage units \n
+    >>> mode, gradation mode, default is 'linear', 'power' \n
+    >>> default power mode is 2 --> ax**2 + bx + c \n
     '''
     import numpy as np
     import matplotlib as mpl
