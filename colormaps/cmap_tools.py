@@ -74,3 +74,16 @@ def Ccmap(C):
     import matplotlib as mpl
     cm = mpl.colors.ListedColormap(C/255)
     return cm
+  
+def extractHexColor(cmap_name, nslices):
+  '''
+  Obtained in https://stackoverflow.com/questions/33596491/extract-matplotlib-colormap-in-hex-format
+  '''
+  from pylab import *
+  cmap = cm.get_cmap(cmap_name, nslices)    # PiYG
+  list = []
+  for i in range(cmap.N):
+    rgba = cmap(i)
+    # rgb2hex accepts rgb or rgba
+    list.append(matplotlib.colors.rgb2hex(rgba))
+   return list
